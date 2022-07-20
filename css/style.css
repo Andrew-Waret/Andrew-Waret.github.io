@@ -491,11 +491,11 @@ body{
         position: fixed;
         background-color: #fff;
         opacity: 0.9;
-        left: 50px;
-        right: 50px;
+        left: 0;
+        right: 0;
         text-align: center;
         gap: 75px;
-        top: -510px;
+        top: -100%;
         transition: all .5s;
         padding: 10px 0;
     }
@@ -503,7 +503,10 @@ body{
         margin: 0 auto;
     }
     .menu__list.--active{
-        top: 100px;
+        top: 86.5px;
+    }
+    body.lock{
+        overflow: hidden;
     }
     .coffee__mugs{
         margin-left: 15px;
