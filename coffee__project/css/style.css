@@ -1,0 +1,442 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background: #E5E5E5;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header{
+    margin-bottom: 25px;
+}
+.header__inner{
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__list{
+    display: flex;
+}
+.menu__item + .menu__item{
+    padding-left: 30px;
+}
+.menu__item .menu__link{
+    font-size: 12px;
+    line-height: 18px;    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    transition: all .9s;
+}
+.menu__link:hover{
+    border-bottom: 1px solid #1D1F2E;
+}
+.basket{
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #A25F4B4D;
+}
+.basket__item + .basket__item{
+    padding-left: 10px;
+}
+.cart{
+    font-size: 12px;
+    line-height: 18px;    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+
+
+.coffee__mugs{
+    text-align: center;
+    padding-top: 159px;
+    margin: 0 30px 120px 30px;
+    font-weight: 400;
+    background-image: url(../images/coffee-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 530px;
+}
+.subtitle-place {
+    font-size: 12px;
+    line-height: 18px; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 0 0 10px;
+}
+.main-title {
+    font-size: 47px;
+    line-height: 60px;
+    color: #FFF;
+    margin: 0 0 10px;
+}
+.text__coffee__mugs {
+    font-size: 17px;
+    line-height: 30px;    
+    color: #FFF;
+    padding-bottom: 48px;
+}
+.explore-coffee__mug {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 24px;
+    transition: all .3s;
+}
+.explore-coffee__mug:hover{
+    background-color: rgba(253, 253, 253, 0.4);
+}
+
+
+.products{
+    margin-bottom: 100px;
+}
+.some-text__products {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title {
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;    
+    color: #1D1F2E;
+    padding-bottom: 16px;
+    max-width: 578px;
+}
+.text__products {
+    font-size: 16px;
+    line-height: 28px;    
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 21px;
+    max-width: 658px;
+    display: block;
+    margin: 0 auto;
+
+}
+.products__btn {
+    font-size: 15px;
+    line-height: 28px;
+    color: #A25F4B;
+    border-bottom: 2px solid #A25F4B;
+    background-color: #fff;
+    padding: 6px 6px;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.products__btn:hover{
+    background-color: #A25F4B;
+    color: #fff;
+}
+
+
+.featured__mugs {
+    margin-bottom: 100px;
+}
+.featured__mugs-title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    margin-bottom: 100px;  
+}
+.featured__coffee__mugs {
+    display: flex;
+    gap: 10px;
+}
+.name__featured__coffee__mugs {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #1D1F2E;
+    padding-top: 35px 0 5px;  
+
+}
+.price__featured__coffee__mugs {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(29, 31, 46, 0.7);
+}
+.price__featured__coffee__mugs span{
+    padding-left: 10px;
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+}
+.more-products{
+    margin-bottom: 100px;
+}
+.more-products__title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.more-products-grid {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 10px;
+}
+.more-products-grid__item {
+    margin-bottom: 50px;
+}
+.more-products__name {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #1D1F2E; 
+    margin-top: 35px;   
+}
+.more-products__price {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;    
+    color: #A25F4B;     
+}
+.more-products__price span{
+    text-decoration-line: line-through;
+    color: rgba(29, 31, 46, 0.4);
+    padding-left: 10px;
+}
+.premium-offer {
+    margin-bottom: 130px;
+}
+.premium-offer__title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.offer__box {
+    display: flex;
+}
+.offer__box__list {
+    display: grid;
+    grid-template-columns: 280px 160px;
+    grid-template-rows: repeat(2, 130px);
+    gap: 20px;
+}
+.premium-offer__link:nth-child(1){
+    grid-row: 1/-1;
+}
+.offer__box__text {
+    margin-left: 80px;
+}
+.premium-offer__title-offer{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    padding-bottom: 14px;
+}
+.premium-offer__main {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    color: #1D1F2E;
+    padding-bottom: 15px;
+}
+.premium-offer__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 34px;
+    max-width: 353px;
+}
+.premium-offer__btn {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1D1F2E;
+    padding: 9px 24px;
+    transition: all .3s;
+}
+.premium-offer__btn:hover{
+    background-color: #FFFFFF;
+    color: #1D1F2E;
+}
+.coffee__img{
+    height: 340px;
+    max-width: 100%;
+}
+.just-picture{
+    background-image: url(../images/coffee-knife-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 340px;
+    margin-bottom: 100px;
+}
+.stories {
+    margin-bottom: 152px;
+}
+.stories__inner {
+    display: flex;
+    gap: 20px;
+}
+.stories__title {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;  
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    padding-bottom: 100px;
+}
+.stories__link {
+    padding-bottom: 25px;
+}
+.stories__subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1D1F2E;
+}
+.stories__text {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 16px;   
+}
+.stories__data {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+}
+.sign-up {
+    margin: 0 30px 100px 30px;
+    height: 327px;
+    background-color: #1D1F2E;
+    padding: 80px 10px;
+}
+.title__sign-up {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.main-title__sign-up {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;    
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.form__inner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.form__input {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 350px;
+    background: transparent;
+    padding: 18px;
+    border: 1px solid #2F303E;
+}
+.form__btn {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 18px;
+    transition: all .3s;
+    border: 1px solid #fff;
+}
+.form__btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.footer {
+    margin-bottom: 48px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text {
+    max-width: 258px;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 81px;
+    padding-top: 23px;
+}
+.footer__privacy-left {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+}
+.menu__footer-link-main{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1D1F2E;
+    padding-bottom: 23px;
+}
+.menu__footer-link{
+    font-size: 13px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 10px;
+}
+.menu__footer-link:last-child{
+    padding-bottom:0;
+}
+.contact-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.7);
+    padding-bottom: 16px;
+}
+.contact-link {
+    font-size: 23px;
+    line-height: 36px;
+    color: #1D1F2E;
+}
+.contact__privacy-left {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(29, 31, 46, 0.3);
+    padding-top: 54px;
+}
